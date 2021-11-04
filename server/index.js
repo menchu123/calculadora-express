@@ -2,6 +2,7 @@ const chalk = require("chalk");
 const debug = require("debug")("calculator:server");
 const express = require("express");
 const morgan = require("morgan");
+const sumRoute = require("./routes/sumRoute");
 
 const app = express();
 
@@ -17,5 +18,9 @@ const initializeServer = (port) => {
     }
   });
 };
+
+app.use(morgan("dev"));
+
+app.use("/sum", sumRoute);
 
 module.exports = initializeServer;
