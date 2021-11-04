@@ -1,0 +1,33 @@
+{
+  "name": "calculadora-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index -q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menchu123/calculadora-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/menchu123/calculadora-express/issues"
+  },
+  "homepage": "https://github.com/menchu123/calculadora-express#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "morgan": "^1.10.0"
+  }
+}
